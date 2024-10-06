@@ -1,0 +1,106 @@
+.navbar{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #35717F;
+}
+
+.navbar a{
+    color: #E0E0E0;
+    text-decoration: none;
+    padding: 10px;
+    margin: 15px;
+}
+
+.navbar a:hover{
+    background-color: #A1E3D8;
+    color: black;
+}
+
+h2{
+    color: #2A5A66;
+    text-align: center;
+}
+
+ /*Doc*/
+.doctor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.tarjeta-doctor{
+    width: 450px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    
+}
+  /*Doc*/
+
+/*Boton*/
+.button {
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    background: #3d3a4e;
+    background-size: 400%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .button-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(
+        82.3deg,
+        rgba(53, 113, 127, 1) 10.8%, 
+        rgba(46, 90, 101, 1) 94.3% 
+      );
+    transition: all 0.475s;
+  }
+  /*Boton*/
+
+  /*Comentarios*/
+.comentarios{
+    margin: 0 auto;
+    width: 50%;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+.tarjeta-comentario{
+    border-bottom: 1px solid #35717F;    
+}
+
+h4{
+    font-size: 16px;
+}
+
+.fecha{
+    color: #999;
+}
+  /*Comentarios*/
