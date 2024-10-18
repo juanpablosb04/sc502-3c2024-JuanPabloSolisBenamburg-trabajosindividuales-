@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulacion del DOM</title>
+</head>
+<body>
+    <h1>Manipulacion del DOM</h1>
+
+    <h2>Lakers</h2>
+
+    <p id="parrafo">Los Angeles Lakers are preparing for the 2024-2025 NBA season with a strong roster and big ambitions. They have key players like LeBron James and Anthony Davis,
+    who continue to be the core of the team. Notable additions for this season include Gabe Vincent and Christian Wood, adding depth to their lineup.</p>
+
+    <button onclick="cambiarContenido()">Cambiar contenido del parrafo</button>
+    
+    <script>
+        function cambiarContenido(){
+            document.getElementById("parrafo").innerHTML = "The Los Angeles Lakers have had a dynamic and active offseason leading into the 2024-2025 season. With LeBron James still leading the team in his 21st season and Anthony Davis continuing to play a central role, the Lakers have added several important players to improve their roster depth.";
+        }
+    </script>
+</body>
+</html>
