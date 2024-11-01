@@ -4,7 +4,8 @@ const estudiantes = [
     {nombre: "Sofia", apellido: "Perez", nota: 80},
     {nombre: "Pedro", apellido: "Paredes", nota: 50},
     {nombre: "Maria", apellido: "Gutierrez", nota: 60},
-    {nombre: "Maria", apellido: "Gutierrez", nota: 80}
+    {nombre: "Maria", apellido: "Gutierrez", nota: 80},
+    {nombre: "Brian", apellido: "Garro", nota: 95}
 
 ]
 
