@@ -1,0 +1,8 @@
+Transaccion Numero 1 es de: 85000 colones
+Transaccion Numero 2 es de: 145000 colones
+Transaccion Numero 3 es de: 50000 colones
+Transaccion Numero 4 es de: 8500 colones
+La suma total de todos los montos de las transacciones es de: 288500 colones 
+Incluyendo Intereses seria de: 296001 colones 
+El cashback es de 288.5 colones 
+El MONTO TOTAL a pagar es de 295712.5 colones 
